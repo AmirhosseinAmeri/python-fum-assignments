@@ -5,14 +5,14 @@ while True :
     if op=="radical":
         re=math.sqrt(num1)
     if op=="sin":
-        re=math.sin(num1)
+        re=(math.sin(3.1415))
     if op=="cos":
         re=math.cos(num1)
     if op=="tan":
         re=math.tan(num1)
     if op=="cot":
         re1=math.tan(num1)
-        re=(1/num1)
+        re=(1/re1)
     if op=="factorial" :
         num1=math.floor(num1)
         re=math.factorial(num1)
