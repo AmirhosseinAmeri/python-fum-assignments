@@ -8,6 +8,11 @@ while True :
         re=math.sin(num1)
     if op=="cos":
         re=math.cos(num1)
+    if op=="tan":
+        re=math.tan(num1)
+    if op=="cot":
+        re1=math.tan(num1)
+        re=(1/num1)
     if op=="factorial" :
         num1=math.floor(num1)
         re=math.factorial(num1)
