@@ -1,4 +1,6 @@
 import math
+def truncate(n):
+    return int(n * 1000) / 1000
 while True :
     num1 = float(input("Enter your Number : "))
     op = input("Enter Operation (Pick from + , - , * , / , radical , sin , cos , tan , cot , factorial , exit) : ")
@@ -6,13 +8,17 @@ while True :
         re=math.sqrt(num1)
     if op=="sin":
         re=math.sin(math.radians(num1))
+        re= truncate(re)
     if op=="cos":
         re=math.cos(math.radians(num1))
+        re= truncate(re)
     if op=="tan":
         re=math.tan(math.radians(num1))
+        re= truncate(re)
     if op=="cot":
         re1=math.tan(math.radians(num1))
         re=(1/re1)
+        re= truncate(re)
     if op=="factorial" :
         num1=math.floor(num1)
         re=math.factorial(num1)
