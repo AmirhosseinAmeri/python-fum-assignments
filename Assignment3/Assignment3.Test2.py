@@ -1,6 +1,6 @@
 import random
 while True:
-    r=int(input("Enter How many numbers would you like to randomize (Enter 0 to exit): "))
+    r=int(input("Enter How many numbers you want to randomly choose (Enter 0 to exit): "))
     if r==0:
         break
     s=int(input("Enter a number to start from : "))
